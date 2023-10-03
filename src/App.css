@@ -36,17 +36,16 @@ h1 {
   padding: 8px 12px;
 }
 
-.MuiButton-root {
-  background-color: #1976d2; /* Material Blue */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 20px;
-  cursor: pointer;
+/* Update the player selection input styles */
+.MuiInputBase-root {
+  width: 100px;
   font-size: 1rem;
-  border-radius: 4px;
+  background-color: #f0f0f0; /* Light gray background */
+  border-radius: 20px; /* Rounded borders */
+  transition: background-color 0.2s; /* Add transition for background color */
 }
 
-.MuiButton-root:hover {
-  background-color: #1565c0; /* Darker Material Blue on hover */
+.MuiInputBase-root:hover,
+.MuiInputBase-root:focus {
+  background-color: #e0e0e0; /* Lighter gray background on hover and focus */
 }
